@@ -4,19 +4,19 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
-global.nomerowner = ["2347043759577"]
+global.owner = '2347035869922'
+global.nomerowner = ["2347035869922"]
 
 // Apikey 
 
-global.skizo = 'David Cyril'
+global.skizo = 'Shadow'
 global.casterix = 'DeeCeeXxx'
 //watermark 
-global.packname = '*DAVID CYRIL*'
+global.packname = '*SHADOW*'
 global.author = 'QUEEN_ANITA-V3'
 
 // cpanel 
-global.domain = 'https://' // deeceexxx
+global.domain = 'https://' https://github.com/DeeCeeXxx/Queen_Anita-V3/edit/main/config.js// deeceexxx
 global.apikey2 = 'ptlc' // I love anita
 global.capikey2 = 'ptla' // david x anita 
 global.eggsnya = '15' // The id eggs used if the id is 5, just leave it, don't change it
@@ -64,24 +64,24 @@ global.available = false;
 // to show always online  
 global.autoreadmessages = false;   
 ///To always read messages
-global.chatbot = false;
-global.autoreact = false;
+global.chatbot = true;
+global.autoreact = true;
 
-global.welcome = false;
+global.welcome = true;
 
 global.prefix = '.';
 
 global.autobio = false;
 
-global.antilink = false;
+global.antilink = true;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
-global.antilinkwarn = false;
+global.antilinkwarn = true;
 
 //_____________//
 // Don't change it
-global.antibot = false
+global.antibot = true
 //—————「 Deadline 」—————//
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
