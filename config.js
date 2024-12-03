@@ -4,15 +4,15 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
-global.nomerowner = ["2347043759577"]
+global.owner = '2347035869922'
+global.nomerowner = ["2347035869922"]
 
 // Apikey 
 
-global.skizo = 'David Cyril'
+global.skizo = 'Shadow'
 global.casterix = 'DeeCeeXxx'
 //watermark 
-global.packname = '*DAVID CYRIL*'
+global.packname = '*SHADOW*'
 global.author = 'QUEEN_ANITA-V3'
 
 // cpanel 
@@ -27,7 +27,7 @@ global.apilinode = ''// apikey vps account linode
 global.apitokendo = ''
 
 //database 
-global.urldb = ''; // just leave it blank but if you want to use the mongo database, fill in the mongo url
+global.urldb = 'https://github.com/DeeCeeXxx/Queen_Anita-V3/edit/main/config.js'; // just leave it blank but if you want to use the mongo database, fill in the mongo url
 
 global.limitawal = {
     premium: "Infinity",
@@ -64,20 +64,20 @@ global.available = false;
 // to show always online  
 global.autoreadmessages = false;   
 ///To always read messages
-global.chatbot = false;
-global.autoreact = false;
+global.chatbot = true;
+global.autoreact = true;
 
-global.welcome = false;
+global.welcome = true;
 
 global.prefix = '.';
 
-global.autobio = false;
+global.autobio = true;
 
-global.antilink = false;
+global.antilink = true;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
-global.antilinkwarn = false;
+global.antilinkwarn = true;
 
 //_____________//
 // Don't change it
