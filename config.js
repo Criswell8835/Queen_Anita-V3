@@ -4,15 +4,15 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
-global.nomerowner = ["2347043759577"]
+global.owner = '2347035869922'
+global.nomerowner = ["2347035869922"]
 
 // Apikey 
 
-global.skizo = 'David Cyril'
+global.skizo = 'SHADOW'
 global.casterix = 'DeeCeeXxx'
 //watermark 
-global.packname = '*DAVID CYRIL*'
+global.packname = 'SHADOW'
 global.author = 'QUEEN_ANITA-V3'
 
 // cpanel 
@@ -71,19 +71,19 @@ global.welcome = false;
 
 global.prefix = '.';
 
-global.autobio = false;
+global.autobio = true;
 
-global.antilink = false;
+global.antilink = true;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
-global.antilinkwarn = false;
+global.antilinkwarn = true;
 
 //_____________//
 // Don't change it
-global.antibot = false
+global.antibot = true
 //—————「 Deadline 」—————//
-let file = require.resolve(__filename)
+let file = require.resolve(QUEEN_ANITA-V3)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
     console.log(color(`Update'${__filename}'`))
